@@ -1,0 +1,68 @@
+/*HOVER EFFECT NAVBAR*/
+@media all and (min-width: 990px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #000000;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+
+  .main{
+  background: url("bggg.png")no-repeat center;
+  min-height: 110vh;
+  width: 100%;
+  height:500px;
+  margin-top: 70px;
+  padding-top: 80px;
+  position: relative;
+  margin-left: 100px;
+}
+
+h1{
+  font-family: "mini-wakuwaku";
+  color: #479493
+}
+
+.buttonz{
+margin-top: 50px;
+}
+
+.button{
+-khtml-user-select: none;
+-o-user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+font-family: mini-wakuwaku;
+color: white;
+font-size: 17px;
+background-color: #EF8683;
+border-radius: 30px;
+outline: 20px #b75a57;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 13px 30px;
+transition: .4s;
+}
+
+.button:hover{
+  background-color: pink;
+  color:black;
+  border: 2px solid pink;
+}
+
+.content{
+  position: absolute;
+  top: 20%;
+  left: 12%;
+}
+
+h5{
+  font-family: montserrat;
+}
+
+.telephonee{
+
+}
+

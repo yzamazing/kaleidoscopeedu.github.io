@@ -1,0 +1,77 @@
+/*HOVER EFFECT NAVBAR*/
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #000000;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+
+  .main{
+    font-family: montserrat;
+    background-color:#fffcde;
+    border: 2px solid;
+    border-radius: 7px;
+    border-color: #FFF4BB;
+    padding: 0px 20px 20px 20px;
+    width: 84%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    box-shadow: 2px 2px #f0e4a8;;
+    }
+
+  .coconuts{
+    font-family: mini-wakuwaku;
+  }
+  a:link{
+    text-decoration: none;
+  }
+
+  .container{
+    width: 1000px;
+    margin: auto;
+  }
+  
+  .card{
+    width: 300px;
+
+    padding: 20px;
+    border: 1px;
+    margin-bottom: 10px;
+    float: left;
+    margin: 10px;
+  }
+
+  .pics{
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  
+  .educating{
+    margin-top: 90px;
+    font-family: mini-wakuwaku;
+    text-align: center;
+  }
+.educatingyouth{
+       -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+width: 530px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .secondary-text{
+    color: #c2c2c2;
+  }
+
+   .footlong{
+    margin-top: 70px;
+  }
+
