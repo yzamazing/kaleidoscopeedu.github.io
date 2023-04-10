@@ -26,7 +26,7 @@
 
 
   .main{
-    font-family: montserrat;
+    font-family: 'Gill Sans MT';
     padding: 0px 20px 20px 20px;
     width: 1270px;
     height:auto;
@@ -69,7 +69,7 @@
     background-color:white;
     border: 2px solid;
   border-radius: 5px;
-    border-color: #ffc7fd;
+    border-color: #ffebfe;
     padding: 0px 20px 20px 20px;
     width: 1000px;
       height: auto;
@@ -80,10 +80,10 @@
     }
 
 .carouselprogrammer{
-      background-color:white;
+    background-color:white;
     border: 2px solid;
     border-radius: 5px;
-    border-color: #ffc7fd;
+    border-color: #ffebfe;
     padding: 0px 20px 20px 20px;
     width: 1000px;
     margin-top:100px;
@@ -92,11 +92,24 @@
     margin-right: auto;
     }
 
-.carouselwriters{
-      background-color:white;
+.carouselphotographers{
+    background-color:white;
     border: 2px solid;
     border-radius: 5px;
-    border-color: #ffc7fd;
+    border-color: #ffebfe;
+    padding: 0px 20px 20px 20px;
+    width: 1000px;
+    margin-top:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carouselwriters{
+    background-color:white;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #ffebfe;
     padding: 0px 20px 20px 20px;
     width: 1000px;
     margin-top:100px;
@@ -108,7 +121,7 @@
     .carousel-inner img{
        border: 2px solid;
         border-radius: 5px;
-      border-color: #ffc7fd;
+      border-color: #ffebfe;
     width: 100%;
     height: 80%;
     display: block;
@@ -119,13 +132,13 @@
 
     .designer-desc{
     margin-top: 55px;
-    font-family: montserrat;
+    font-family: 'Gill Sans MT';
     text-align: center;
     }
 
     .prog-desc{
     margin-top: 55px;
-    font-family: montserrat;
+    font-family: 'Gill Sans MT';
     text-align: center;
     }
 
@@ -137,4 +150,21 @@ table{
    overflow-x: auto !important;
    width: 100% !important;
   align: center;
+}
+
+.tableee{
+  padding: 100px;
+}
+
+.button{
+  text-decoration: none;
+  color: black;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button:hover{
+  color: #ff526f;
+  text-decoration: none;
+  opacity: 1
 }

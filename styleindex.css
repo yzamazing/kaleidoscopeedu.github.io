@@ -1,4 +1,4 @@
-/*HOVER EFFECT NAVBAR*/
+  /*HOVER EFFECT NAVBAR*/
 @media all and (min-width: 990px) {
 	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
 	.navbar .nav-item:hover .nav-link{ color: #000000;  }
@@ -88,7 +88,7 @@
     background: url("BG\ BACKGROUND\ HFS\ TEST.png") no-repeat center;
     background-size: 1390px;
     text-align: center;
-    font-family: montserrat;
+    font-family: 'Gill Sans MT';
   }
 
 }

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="COMPUTER YELLOW FOR WEBSITE.ico">
+  <title> Sheela Francesca Samson </title>
+  <link href="https://fonts.google.com/specimen/Montserrat">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
+  <script src="https://kit.fontawesome.com/d362c01331.js" crossorigin="anonymous"></script>
+  <!--css style-->
+  <style>
+    /*HOVER EFFECT NAVBAR*/
+    @media all and (min-width: 992px) {
+      .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+      }
+
+      .navbar .nav-item:hover .nav-link {
+        color: #000000;
+      }
+
+      .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+      }
+
+      .navbar .dropdown-menu.fade-up {
+        top: 180%;
+      }
+
+      .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+      }
+    }
+
+    @media only screen and (min-width: 430px) {
+
+      .main {
+        margin-top: 150px;
+        font-family: "Gill Sans MT";
+        background-color: #FFF0F9;
+        border: 1px solid;
+        border-color: #EDD2E2;
+        padding: 0px 20px 20px 20px;
+        width: 85%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+      }
+
+      .title {
+        padding-top: 100px;
+        font-size: 40px;
+        font-family: "Gill Sans MT";
+        text-align: center;
+      }
+
+      .title1 {
+        font-family: "Gill Sans MT";
+        text-align: center;
+        color: gray;
+        font-size: 10px;
+      }
+
+      .image-ptf {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        border-radius: 20px;
+      }
+
+      .favsong {
+        background-color: #D8C0B8;
+        border-radius: 20px;
+      }
+
+      .img-cover {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+      }
+
+      audio {
+        display: block;
+        width: 250px;
+        height: 50px;
+        padding-bottom: 10px;
+      }
+
+      h6 {
+        padding-bottom: 10px;
+      }
+
+      .text {
+        text-align: left;
+        font-size: px;
+        padding-top: 55px;
+        padding-left: auto;
+        padding-right: auto;
+      }
+
+      .footlong {
+        margin-top: 70px;
+      }
+  </style>
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <style>
+    /* Modify the background color */
+
+    .navbar {
+      background-color: #FFEAF7;
+      font-family: "mini-wakuwaku";
+      font-size: 15px;
+    }
+  </style>
+  <!--NAVBAR EME-->
+  <nav class="navbar navbar-expand-sm fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="KALEIDOSCOPE TITLE.png" alt="logo" style="width:220px;"></a>
+      <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+
+          <!--NAVBAR ITEMS-->
+          <!--Home-->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html"> <img src="TEAL HOUSE.gif" alt="home" width="30">
+              HOME
+            </a>
+
+            <!--Board & Polls-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="CARD.gif" alt="board" width="30">BOARD & POLLS</a>
+          </li>
+          <!--Educate-->
+          <li class="nav-item">
+            <a class="nav-link active" href="educate.html"><img src="COMPUTER YELLOW FOR WEBSITE.gif"
+                width="32">EDUCATE</a>
+          </li>
+          <!--Others
+          <li class="nav-item">
+            <a class="nav-link">Others</a>
+          </li>
+          -->
+
+          <!--NAVBAR DROPDOWN-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img
+                src="TRAFFIC LIGHTS (2).png" width="32">
+            </a>
+            <!--About Us-->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="aboutus.html"><img src="Heart.png" width="25"> About Us</a>
+              </li>
+              <!--Kaleidoscope Team-->
+              <li><a class="dropdown-item" href="kaleidoscopeteam.html"><img src="SPARKLE.gif" width="25">‎ Kaleidoscope
+                  Team</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <!--Contact Us-->
+              <li><a class="dropdown-item" href="contactus.html"><img src="CONTACT US.gif" width="25">Contact Us</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- <h1 style="font-size:4vw">Kaleidoscope </h1> -->
+
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Kaleidoscope Team" aria-label="Search" size="50">
+          <button class="btn" type="submit" style=background-color:transparent;><img src="MOUSE.gif"> </button>
+        </form>
+      </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- EXAMPLE OF CURSOR
+<style>
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym646.ani),
+    url(https://cur.cursors-4u.net/symbols/sym-7/sym646.gif), auto !important;>
+    </style>  -->
+
+    <style type="text/css">
+      * {
+        cursor: url('TELE1.ani'), url('TELE1.gif'), auto !important;
+      }
+    </style><a href="TELESCOPE CURSOR.html" target="_blank" border="0" style="position: absolute;" target="_blank"
+      style="position:absolute; top: 0px; right: 0px;" /></a>
+
+
+  </nav>
+
+  <!--content-->
+  <section>
+    <div class="main">
+      <div id="educating-the-youth" class="container-fluid">
+
+
+        <div class="educatingdayouth">
+          <h2 class=title>Sheela Francesca Samson</h2>
+          <h4 class="title1">PHOTOGRAPHER</h4>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="image">
+              <img class="image-ptf" src="sheelaptf.png" style="width: 400px;">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class=text>
+              <div class="favsong" align="center">
+                <img class="image-cover" src="better place.png" style="width: 200px;">
+                <h6> BETTER PLACE - SPRING GANG
+                </h6>
+                <audio controls>
+                  <source src="Better Place by Spring Gang.mp3" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+              </div>
+
+              <p><br> <br> Greetings! My name is Cesca Samson, and I'm a member of the Kaleidoscope team's photo team. I
+                make sure that my photos are both readable and pleasing to the eye. I like to read books, and the
+                website we made has given me a lot more knowledge about it
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+  </section>
+
+  <!-- comment section sample
+
+  <body>
+    <div class="container center_display">
+      <div class="top">
+
+        <form>
+          <div class="heart icon">
+          </div>
+
+          <div class="form info" <input type="text" name="user" id="user" placeholder="your username>" <input
+            type="text" name="comment" id="comment" placeholder="add comment here">
+          </div>
+          <button type="submit" class="submit" </button>
+        </form>
+        <div class="">
+
+
+          <style>
+            .center_display {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            .container .top {
+              position: relative;
+              border-bottom: 1px solid #eee;
+            }
+
+            .top .likes__count {
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: #ffadad;
+              font-size: 20px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 10px 20px;
+              border-bottom-right-radius: 20px;
+              color: white;
+            }
+
+            .likes__count small {
+              font-size: 20px;
+              margin-left: 5px;
+            }
+
+            .top post {
+              object-fit: fill;
+            }
+
+            form {
+              display: grid;
+              width: 100%;
+              height: 80px;
+              grid-template-columns: 5% 80% 15%;
+            }
+
+            .form__info input {
+              border: none;
+              background: transparent;
+              width: 70%;
+              border-bottom: 1px solid #ccc;
+              font-size: 18px;
+              margin-bottom: 10px;
+              outline: none;
+            }
+
+            .form__info input::placeholder {
+              color: #ddd;
+            }
+
+            .top .heart__icon {
+              color: #ffadad;
+              font-size: 30px;
+              cursor: pointer;
+            }
+
+            .top button {
+              background-color: #48cae4;
+              height: 50%;
+              border: none;
+              outline: none;
+              color: white;
+              transform: translateY(50%);
+              margin-right: 10px;
+              cursor: pointer;
+            }
+
+            /* COMMENTS */
+            .comments__container {
+              width: 800px;
+              margin-top: 2rem;
+            }
+
+            .comment__card {
+              width: 100%;
+              height: 80px;
+              display: grid;
+              grid-template-columns: 10% auto;
+              margin: 0.5rem;
+              border-bottom: 1px solid #eee;
+            }
+
+            .comment__card .pic {
+              background-color: #48cae4;
+              border-radius: 50%;
+              margin: 10%;
+              font-size: 25px;
+              color: white;
+              text-transform: uppercase;
+            }
+
+            .comment__info {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            }
+
+            .comment__info .nickname {
+              color: #aaa;
+            }
+
+            .comment__info .comment {
+              margin: 5px 0;
+            }
+
+            .comment__info .comment__bottom {
+              display: flex;
+            }
+
+            .comment__bottom .heart__icon--comment {
+              font-size: 20px;
+              margin-right: 20px;
+              color: #eee;
+            }
+
+            /* add with JS */
+            .heart__icon--comment .fas.positive {
+              color: #ffadad;
+            }
+
+            .comment__bottom button {
+              border: none;
+              background: transparent;
+              color: #aaa;
+              text-transform: uppercase;
+              cursor: pointer;
+            }
+          </style>
+          <script src="comment.js">
+          </script>
+        </div>
+      </div>
+      -->
+
+  <br>
+  <br>
+
+  <!--Footer-->
+  <section class="footlong">
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!--
+        <div>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        -->
+
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>KALEIDOSCOPE
+              </h6>
+              <p>
+                Empowering the youth, powered by the youth.
+              </p>
+            </div>
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                NAVIGATE
+              </h6>
+              <p>
+                <a href="educate.html" class="text-reset">Educate</a>
+              </p>
+              <p>
+                <a href="aboutus.html" class="text-reset">About Us</a>
+              </p>
+              <p>
+                <a href="kaleidoscopeteam.html" class="text-reset">Kaleidoscope Team</a>
+              </p>
+              <p>
+                <a href="contactus.html" class="text-reset">Contact Us</a>
+              </p>
+            </div>
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3 text-secondary"></i>66 Maginhawa St. Diliman, Quezon City, Philippines
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                kaleidoscopeteam@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3 text-secondary"></i>0289216274</p>
+
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2023 Copyright:
+        <p>Kaleidoscope</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </section>
+
+
+</body>
+
+</html>
